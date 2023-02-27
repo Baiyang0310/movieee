@@ -1,0 +1,267 @@
+a,
+.btn {
+	text-decoration: none;
+	color: red;
+	outline: none;
+}
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+
+.icon {
+	display: block;
+	width: 2.5em;
+	height: 2.5em;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+
+
+.codrops-icon {
+    position: absolute;
+    left: 0px;
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.5em;
+}
+ p {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  line-height: 1;
+  letter-spacing: 0.3rem;
+  color: white;
+}
+.ex2 {
+  opacity: 0;
+  position: absolute;
+  left: 670px;
+  top: 100px;
+  color: red;
+}
+.ex2 span {
+  position: relative;
+  left: -10px;
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.nav {
+    height: 55px;
+}
+.nav-logo{
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    left: 0px;
+    }
+.nav-nav li {
+  display: inline-block;
+    }
+.nav-nav a {
+  text-decoration: none; 
+    background: transparent;
+    padding: 0 25px;
+    }
+  .nav-nav{
+      margin-left: 200px;
+    line-height: 55px;
+    }
+    .nav-icon{
+        position: absolute;
+        right: 110px;
+        top: 16px;
+        width: 45px;
+    }
+    .nav span{
+        position: absolute;
+        right: 50px;
+        top: 20px;
+    }
+.zz{
+    height: 100vh;
+    background: black;
+}
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+    background: black;
+}
+.card{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #fff;
+}
+.card-img{
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img01{
+  background-image: url("../images/p2415552018.webp");
+}
+.card-content{
+  padding: 10% 5%;
+  box-sizing: border-box;
+  width: 50%;
+  background: black;
+}
+.card-theme{
+  font-weight: 900;
+  font-size: 1.7vmin;
+  text-transform: uppercase;
+  font-family: Poppins;
+  letter-spacing: 10px;
+  color: grey;
+}
+.card-header{
+  font-weight: 700;
+  font-size: 54px;
+  text-transform: capitalize;
+  line-height: 1;
+  margin: 3vmin 0 3.5vmin;
+  color: white;
+  font-family: Poppins;
+}
+.card-para{
+  font-size: 1.6vmin;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-bottom: 2.5vmin;
+  color: white;
+  font-family: Poppins;
+}
+.card-link{
+  color: white;
+  font-family: Poppins;
+  font-size: 1.8vmin;
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+.card-link:after{
+  content: " →";
+}
+/*侧边导航栏*/
+.recom{
+          position: absolute;  
+        font-size: 40px;
+          color: white;
+          left: 40%;
+          top: 5%;
+      }
+    .tagBall {
+      width: 500px;
+      height: 500px;
+      margin: 0px auto;
+      position: relative;
+    }
+
+    .tag {
+      display: block;
+      position: absolute;
+      left: 0px;
+      top: 200px;
+      color: #000;
+      text-decoration: none;
+      font-size: 15px;
+      font-family: "微软雅黑";
+      font-weight: bold;
+      will-change: transform;
+    }
+
+
+
+    .bullets-container {
+      display: table;
+      position: fixed;
+      right: 0;
+      height: 100%;
+      z-index: 1049;
+      font-weight: normal;
+  }
+  
+  .section-bullets {
+      transition-duration: .3s;
+      list-style: none;
+      margin: 0;
+      display: table-cell;
+      vertical-align: middle;
+  }
+  
+  .section-bullets li {
+      display: block;
+      text-align: right;
+      font-size: 13px;
+      text-transform: uppercase;
+      line-height: 1;
+      position: relative;
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+      cursor: pointer;
+      margin-bottom: 1px;
+  }
+  
+  
+  
+  .section-bullets li a:after {
+      content: ' ';
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #000;
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      transition-duration: .2s;
+  }
+  
+  .section-bullets li a {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      transition-duration: .3s;
+      background-color: white;
+      margin-left: 5px;
+      padding: 5px 20px 5px 10px;
+      min-height: 11px;
+      opacity: 0.6;
+  }
+  
+  .section-bullets li span {
+      position: relative;
+      right: 0;
+      transition-duration: 0.3s;
+      color: black;
+  }
+  
+  
+  
+  .section-bullets li:hover span {
+      opacity: 1;
+      transition-delay: 0.1s;
+  }
+  
+  
+  .scrollable-section{
+      background: black;
+      height: 100vh;
+  }

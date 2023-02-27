@@ -1,0 +1,134 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  background: black;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.h111 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.scene {
+    width: 45%;
+    height: 90%;
+    margin: 5% 5% 5% 50%;
+  
+  perspective: 1000px;
+}
+
+.book {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  transform-style: preserve-3d;
+}
+.page {
+  cursor: pointer;
+  position: absolute;
+  color: black;
+  width: 100%;
+  height: 100%;
+  transition: 1.5s transform;
+  transform-style: preserve-3d;  
+  transform-origin: left center;
+}
+.front,
+.back {
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  padding: 10% 5% 5%;
+  box-sizing: border-box;
+  
+  backface-visibility: hidden;
+  background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#FFFFFF), to(#CCCCCC));
+  background: linear-gradient(to bottom right, #fff, #ccc);
+}
+.back {
+  transform: rotateY(180deg);
+}
+
+.page.active {
+  z-index: 1;
+}
+.page.flipped {
+  transform: rotateY(-180deg);
+}
+.page.flipped:last-of-type {
+  z-index: 1;
+}
+
+.font{
+  position: absolute;
+  margin-top: 150px;
+  font-size: 20px;
+  color: black;
+}
+
+.pict1{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp1.webp");
+  background-size: cover;
+}
+
+.pict2{
+  height: 450px;
+  width: 690px;
+  border-radius: 10px;
+  background: url("../images/jxp2.webp");
+  background-size: cover;
+}
+
+.pict3{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp3.webp");
+  background-size: cover;
+}
+.pict4{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp4.webp");
+  background-size: cover;
+}
+.pict5{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp5.webp");
+  background-size: cover;
+}
+.pict6{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp6.webp");
+  background-size: cover;
+}
+.pict7{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp7.webp");
+  background-size: cover;
+}
+.pict8{
+  border-radius: 10px;
+  height: 450px;
+  width: 690px;
+  background: url("../images/jxp8.webp");
+  background-size: cover;
+}
+
